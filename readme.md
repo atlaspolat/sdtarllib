@@ -12,9 +12,14 @@ A simple library that helps you do some useless stuff
 
 ```c
 
-void main(int argc, char* argv[]){
+int main() {
+    int result = add(5, 3);
+    printf("5 + 3 = %d\n", result);
 
-    // some useless stuff
+    result = subtract(5, 3);
+    printf("5 - 3 = %d\n", result);
+
+    return 0;
 }
 
 ```
