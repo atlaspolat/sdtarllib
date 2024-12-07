@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "mathutils.h"
+#include "headers/mathutils.h"
 
 int main() {
     int result = add(5, 3);
